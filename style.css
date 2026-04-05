@@ -6,6 +6,7 @@
   --Slate-900: hsl(218, 44%, 22%);
 }
 
+
 body {
   background-color: var(--Slate-300);
   margin: 0;
