@@ -6,11 +6,10 @@
   --Slate-900: hsl(218, 44%, 22%);
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
-
 
 body {
   background-color: var(--Slate-300);
@@ -27,8 +26,49 @@ body {
   height: 100dvh;
   width: 100vw;
   background-color: var(--Slate-300);
+  font-family: "Outfit", sans-serif;
+}
+.card {
+  width: 300px;
+  background-color: var(--White);
+  padding: 15px 15px 25px 15px;
+  border-radius: 15px;
+  text-align: center;
+}
+.card h1 {
+  color: var(--Slate-900);
+  font-size: 23px;
+  padding-top: 10px;
+}
+.card p {
+  font-size: 16px;
+  color: var(--Slate-500);
+  padding: 15px 0 5px 0;
+}
+.card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* before the improvement:*/
+/* body {
+  background-color: var(--Slate-300);
+  margin: 0;
+  padding: 0;  overflow: hidden;
+}
+.logo {
+  padding: 10px 0 0 10px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  width: 100vw;
+  background-color: var(--Slate-300);
   font-family: "Outfit";
-  /* overflow-x: hidden; */
+
 }
 .card {
   width: 200px;
@@ -48,4 +88,4 @@ body {
   width: 100%;
   height: auto;
   border-radius: 10px;
-}
+} */
